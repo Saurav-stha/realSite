@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Real Site</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+	body{
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		font-family: 'Ubuntu', sans-serif;
+		background: #f5f5ff; 
+		box-sizing: border-box;
+		transform: translate(0%, 15%);
+		overflow: hidden
+	}
+	/* body{
+		margin: 0;
+		padding: 0;
+		font-family: 'Poppins' , sans-serif;
+		background-size: cover;
+		background-position: center;
+	} */
+	.main{
+		width: 100%;
+		height: 100vh;
+		color: #ffd;
+		background-color: rgba(58,58,58,255);
+		box-shadow: rgba(0, 0, 0, 0.6) 0px 20px 50px;
+		z-index: -1;
+	}
+	.disable{
+		width: 29px;
+		height: 25px;
+		padding: 10px;
+		margin: 1.5px;
+		text-align: center;
+		line-height: 1.5em;
+		border: 1px;
+		border: 2px solid transparent;
+		background-color: rgba(58,58,58,255);
+		float: left;
+	}
+	.disable{
+		border:1px solid #5a5757;	
+	}
+	#movediv{
+		position: absolute;
+		height: 110px;
+		width: 110px;
+		background-color: #ffd;
+		border-radius: 50%;
+		opacity: .3;
+		filter: blur(20px);
+		z-index: -1;
+	}
+
+	header{
+		height: 100vh;
+	}
+
+	.logo img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 70px;
+		height: 70px;
+		margin: 10px 20px;
+		border-radius: 50%;
+		cursor: pointer;
+	}
+
+	.logo img:hover{
+		transform: rotateZ(360deg);
+		transition: 1s;
+	}
+
+	nav{
+		position: absolute;
+		top:0;
+		width: 100%;
+		height: 90px;
+		background: rgba(0,9,2,0.1);
+	}
+
+	nav ul{
+		float: right;
+		margin-right: 150px;
+	}
+
+	nav ul li{
+		position: relative;
+		display: inline-block;
+		padding: 15px;
+		overflow: hidden;
+	}
+
+	nav ul li a{
+		color: #b9afaf;
+		padding: 15px 5px;
+		text-decoration: none;
+		font-size: 20px;
+		transition: .5s;
+	}
+
+	a:after{
+		content: '';
+		position: absolute;
+		padding: 50px;
+		right: 5px;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		width: 100%;
+		background: #6ea9ff;
+		transition: 1s;
+		z-index: -1;
+		transform: translateY(15px);
+	}
+
+	nav ul li a:hover:after{
+		transform: translateY(-50px);
+	}
+</style>
+<body>
+	<header>
+    	<nav>
+    		<div class="logo">
+    			<img src="https://yt3.ggpht.com/ytc/AMLnZu819qFaOASCV8YuHNCrH4CGWMUzWVHmQBw_1ngDDA=s900-c-k-c0x00ffffff-no-rj">
+    			
+    		</div>
+    		<ul>
+    			<li><a href="#">Home</a></li>
+    			<li><a href="#">Services</a></li>
+    			<li><a href="#">About</a></li>
+    			<li><a href="#">Contact</a></li>
+    		</ul>
+    	</nav>
+    </header>
+        
+	<div class="main">
+		<div class="week-dates">
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			<div class="disable"></div>
+			</div>
+		<div id="movediv"></div>
+	</div>
+
+<script type="text/javascript">
+	var moveDiv = document.getElementById('movediv');
+	window.onmousemove = function (e) {
+    var x = e.pageX,
+    	y = e.pageY;
+    moveDiv.style.top = (y + -120) + 'px';
+    moveDiv.style.left = (x + -60) + 'px';
+};
+</script>
+</body>
+</html>
